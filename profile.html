@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="profile.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="navbars">
+        <div class="vert-nav">
+
+            <div class="icon">
+                <img src="113-1139281_ive-hill-eagles-blue-eagle-transparent-logo.png" alt="icon">
+            </div>
+
+            <div class="nav-head">
+                <i class="fas fa-user-lock"></i>
+                <span>Admin</span> 
+            </div>
+
+            <div class="nav-links">
+                <ul class="list-items">
+                    <li onclick="fun(0)" class="category cath activecat">
+                        <i class="fas fa-bars"></i>
+                        <span>Dashboard</span>
+                    </li>
+                    <li onclick="fun(1)" class="category cath">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>Post your Land</span>
+                    </li>
+                    <li onclick="fun(2)" class="category cath">
+                        <i class="fas fa-rupee-sign"></i>
+                        <span>Buy a Land</span>
+                    </li>
+                    <li onclick="fun(3)" class="category cath">
+                        <i class="far fa-star"></i>
+                        <span>My Watchlist</span>
+                    </li>
+                    <li onclick="fun(4)" class="category cath">
+                        <i class="far fa-check-circle"></i>
+                        <span>Get KYL Verified</span>
+                    </li>
+                    <li onclick="fun(5)" class="category cath">
+                        <i class="fas fa-headset"></i>
+                        <span>Customer Support</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="vert-line"></div>
+
+            <div class="copywrite">
+                <p>&copy; Know Yo Land 2021.</p>
+            </div>
+
+        </div>
+
+        <div class="hori-nav">
+            <p><i class="fab fa-waze"></i>
+                <span>Hello Admin, Welcome Back</span></p>
+            <ul class="notify">
+                <li>
+                    <i class="far fa-bell"></i>
+                </li>
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="dashboard categoryitem cath activecat">
+        <h2>Your Dashboard</h2>
+        
+        <div class="about-admin">
+
+            <div class="profile-pic">
+                <img src="profile-pic.jpg" alt="">
+            </div>
+
+            <div class="personal-info">
+                <h1>Admin Name</h1>
+                <h3>User Id</h2>
+            </div>
+
+            <div class="contact-admin">
+                <h3><i class="fas fa-phone"></i> 987654321</h3>
+                <h3><i class="fas fa-envelope"></i> admin@gmail.com</h3>
+                <h4><i class="fas fa-map-marker-alt"></i> 12/1 street, albenia, siberia.</h4>
+            </div>
+
+            <div class="social-media">
+                <ul>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </ul>
+                <div class="vert-line"></div>
+                <div class="edit">
+                    <button>Edit Profile</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="preferences">
+            <h2>My Preferences</h2>
+            <div class="preferences-blocks">
+                <div class="area pref">
+
+                    <i class="fas fa-chart-area"></i>
+                    <span>1200 Sqft.</span>
+                </div>
+                <div class="location pref">
+                    <i class="fas fa-search-location"></i>
+                    <span>Delhi</span>
+                </div>
+                <div class="price pref">
+                    <i class="far fa-money-bill-alt"></i>
+                    <span>less than 10Lakhs</span>
+                </div>
+                <div class="distance pref">
+                    <i class="fas fa-road"></i>
+                    <span>less than 20km.</span>
+                </div>
+            </div>
+            <div class="edit">
+                Edit Preferences
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="postland categoryitem cath">
+        <h2>Post Your Land</h2>
+    </div>
+    <div class="buyland categoryitem cath">
+        <h2>Buy a Land</h2>
+    </div>
+    <div class="buyland categoryitem cath">
+        <h2>My Watchlist</h2>
+    </div>
+    <div class="buyland categoryitem cath">
+        <h2>Get KYL Verified</h2>
+    </div>
+    <div class="buyland categoryitem cath">
+        <h2>Customer Support</h2>
+    </div>
+    
+</body>
+</html>
+<script src="profile.js"></script>
